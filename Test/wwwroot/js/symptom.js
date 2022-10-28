@@ -1,0 +1,3 @@
+﻿function finnDiagnose(symptomset){
+
+}

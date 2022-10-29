@@ -1,4 +1,6 @@
-﻿let valgte = ""
+﻿
+
+let valgte = ""
 
 $(function() {
     hentAlleKunder();
@@ -54,6 +56,8 @@ function finnDiagnose() {
     symptomsdiagnose = [valg.split("<br>")];
 
 }
+
+
 
 /*
 When the user clicks on the button,

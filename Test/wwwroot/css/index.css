@@ -1,12 +1,14 @@
 ﻿#home, #symp{
-    max-width: 400px;
     margin: 0 auto;
     text-align: center;
     
 
 }
-
-
+#gender, #symp2 {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
 
 label, h5 {
     text-align: left;
@@ -16,7 +18,7 @@ h1 {
     padding: 7px;
 
 }
-p {
+p, #symp p {
     color: black;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 20px;
@@ -24,6 +26,10 @@ p {
     text-align: center;
     text-justify: inter-word;
 }
+#symp li {
+        letter-spacing: 3px;
+       color: rgb(0,123,255);
+    }
 input, select,option{
     width: 100%;
     padding: 6px 10px;
